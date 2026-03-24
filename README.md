@@ -8,7 +8,7 @@ Built for Claude Code, Cowork, OpenClaw, ChatGPT Agent or any other agentic AI. 
 
 ## Why this exists
 
-DNS is infrastructure. In the not-so-distant future, we think there will be more DNS queries and modifications being made by AI agents and intelligent endpoints than by people. 
+DNS is infrastructure. In the not-so-distant future, we think there will be more DNS queries and zone modifications being made by AI agents and intelligent endpoints than by people. 
 
 This server wraps the easyDNS API with:
 
