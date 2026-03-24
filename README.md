@@ -4,9 +4,13 @@ A security-hardened [Model Context Protocol](https://modelcontextprotocol.io) se
 
 Built for Claude Code, OpenClaw, and Claude Cowork. Includes a SKILL.md bash fallback for non-MCP agents.
 
+![easyDNS MCP Server](easydns-mcp-readme.png)
+
 ## Why this exists
 
-DNS is infrastructure. One bad API call can take a site offline. This server wraps the easyDNS API with:
+DNS is infrastructure. In the not-so-distant future, we think there will be more DNS queries and modifications being made by AI agents and intelligent endpoints than by people. 
+
+This server wraps the easyDNS API with:
 
 - **Least privilege by default** — sandbox-only, read-only, all writes disabled out of the box
 - **Flat tools** — one tool per action (`dns_record_delete`, not `domain_manage(action: "delete")`), so the agent supervisor sees exactly what's being requested
