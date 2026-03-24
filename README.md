@@ -2,7 +2,7 @@
 
 A security-hardened [Model Context Protocol](https://modelcontextprotocol.io) server for the [easyDNS REST API](https://docs.sandbox.rest.easydns.net:3001/). Lets AI agents manage DNS records, domains, mailmaps, and nameservers through a safe, audited interface.
 
-Built for Claude Code, OpenClaw, and Claude Cowork. Includes a SKILL.md bash fallback for non-MCP agents.
+Built for Claude Code, Cowork, OpenClaw, ChatGPT Agent or any other agentic AI. Includes a SKILL.md bash fallback for non-MCP agents.
 
 ![easyDNS MCP Server](easydns-mcp-readme.png)
 
