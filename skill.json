@@ -1,0 +1,10 @@
+{
+  "name": "easydns",
+  "description": "Manage DNS records, domains, mailmaps, and nameservers via the easyDNS REST API",
+  "version": "0.1.0",
+  "instructions": "SKILL.md",
+  "tags": ["dns", "easydns", "domains", "infrastructure"],
+  "tools": {
+    "mcp": "easydns-mcp"
+  }
+}

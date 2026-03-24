@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "easydns": {
+      "command": "node",
+      "args": ["/path/to/easydns-mcp/dist/index.js"],
+      "env": {
+        "EASYDNS_TOKEN": "your-token-here",
+        "EASYDNS_API_KEY": "your-api-key-here",
+        "EASYDNS_SANDBOX": "true",
+        "EASYDNS_ENABLE_WRITES": "false"
+      }
+    }
+  }
+}
